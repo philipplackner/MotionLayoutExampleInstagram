@@ -15,14 +15,11 @@
     </Transition>
 
     <ConstraintSet android:id="@id/start">
-
         <Constraint
             android:id="@id/tvHelloWorld">
-
             <CustomAttribute
                 app:attributeName="textColor"
                 app:customColorValue="#162154" />
-
         </Constraint>
 
         <Constraint
@@ -30,25 +27,15 @@
             app:layout_constraintTop_toBottomOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent">
-
-            <CustomAttribute
-                app:attributeName="backgroundColor"
-                app:customColorValue="#162154" />
-
-        </Constraint>
-
+            app:layout_constraintEnd_toEndOf="parent" />
     </ConstraintSet>
 
     <ConstraintSet android:id="@id/end">
-
         <Constraint
             android:id="@id/tvHelloWorld">
-
             <CustomAttribute
                 app:attributeName="textColor"
                 app:customColorValue="@android:color/white" />
-
         </Constraint>
 
         <Constraint
@@ -56,14 +43,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent">
-
-            <CustomAttribute
-                app:attributeName="backgroundColor"
-                app:customColorValue="#162154" />
-
-        </Constraint>
-
+            app:layout_constraintEnd_toEndOf="parent" />
     </ConstraintSet>
 
 </MotionScene>
